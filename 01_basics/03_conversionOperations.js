@@ -13,7 +13,11 @@ let valueInNumber = Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
-let isLoggedIn = ""
+// let isLoggedIn = "" --> false
+// let isLoggedIn = "1" --> true
+// let isLoggedIn = 1 --> true
+// let isLoggedIn = 0 --> false
+// let isLoggedIn = "Shubham" --> true
 
 let valueInBoolean = Boolean(isLoggedIn);
 console.log(valueInBoolean);
