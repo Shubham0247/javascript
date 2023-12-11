@@ -14,11 +14,10 @@ number => 2 to power 53(range)
 bigint
 string
 boolean
-null => standalone value
+null => standalone value, type->object
 undefined
 symbol => uniqueness
-
 object
 */
 
-console.log(typeof null);
+console.log(typeof undefined);
