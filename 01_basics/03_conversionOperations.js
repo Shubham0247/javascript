@@ -17,7 +17,42 @@ console.log(valueInNumber);
 // let isLoggedIn = "1" --> true
 // let isLoggedIn = 1 --> true
 // let isLoggedIn = 0 --> false
-// let isLoggedIn = "Shubham" --> true
+let isLoggedIn = "Shubham" 
 
 let valueInBoolean = Boolean(isLoggedIn);
 console.log(valueInBoolean);
+
+
+// ********************** Operations ************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 2);
+// console.log(2 / 2);
+// console.log(2 % 2);
+
+let str1 = "Shubham"
+let str2 = " Audattapure"
+
+let str3 = str1 + str2
+
+console.log(str3);
+
+console.log(1 + "2");
+console.log("1" + 2);
+
+console.log("1" + 2 + 2);
+
+console.log(1 + 2 + "2");
+
+console.log(1 + "2" + 2);
+
+let gameCounter = 100;
+gameCounter++;
+
+console.log(gameCounter);
