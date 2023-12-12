@@ -31,3 +31,28 @@ const myFunction = function(){
 // console.log(typeof myFunction);
 
 myFunction()
+
+
+// ++++++++++++++++++++ Memories in javascript +++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non primitive)
+
+let myYoutubename = "shubham.com"
+
+let anotherName = myYoutubename
+
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
