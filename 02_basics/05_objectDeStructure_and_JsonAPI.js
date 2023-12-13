@@ -11,3 +11,17 @@ console.log(courseInstructor);
 const {courseInstructor: instructor} = course
 
 console.log(instructor);
+
+// APIs
+
+// {
+//     "name": "shubham",
+//     "courseName": "js is hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
