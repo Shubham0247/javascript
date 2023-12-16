@@ -1,17 +1,29 @@
-function SetUsername(username)  {
-    // complex DB calls
-    this.username = username
-    console.log("called");
+class User { 
+    constructor(username) {
+        this.username = username
+    }
+
+    logMe() {
+        console.log(`Username: ${this.username}`)
+    }
+
+    static createId() {
+        return `123`
+    }
 }
 
-function createUser(username, email, password) {
+const Shubham = new User("Shubham")
+// console.log(Shubham.createId()); // this will not work because createId() is static and we cannot call static variables or methods using objects
 
-    SetUsername.call(this, username)
+console.log(User.createId());
 
-    this.email = email,
-    this.password = password
+class Teacher extends User {
+    constructor(username,email) {
+        super(username)
+        this.email = email
+    }
 }
 
-const chai = new createUser("chai","chai@gmail.com","123")
+const iphone = new Teacher("iphone", "i@gmail.com")
+console.log(iphone.createId());
 
-console.log(chai);
